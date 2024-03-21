@@ -45,7 +45,7 @@ export const ExplanationUseState = () => {
         En nuestro estado incial podemos pasar diferentes tipos de datos entre esos un objeto o arreglo que nos va a permitir en nuestro estado
         poder hacer desestructuracion permitiendo asi llamar a variables individuales para cada valor almacenado. La sintaxis que usariamos seria la siguiente: 
         <br />
-        <span className="font-semibold text-red-400 text-base">{secondWay}</span>
+        <span className="font-semibold text-red-400 text-base">{secondWay}.</span>
       </p>
     </div>
   );
