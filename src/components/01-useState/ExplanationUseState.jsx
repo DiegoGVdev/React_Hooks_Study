@@ -26,6 +26,7 @@ export const ExplanationUseState = () => {
       <p className="text-lg text-left pl-4 mb-4   ">
         Para importar useState en un componente usamos la siguiente sintaxis:
         <br />
+        <br />
         <span className="font-semibold text-red-400 text-base">
           import {nameHook} from &apos;react&apos;
         </span>
@@ -40,6 +41,7 @@ export const ExplanationUseState = () => {
         poder modificar el valor de nuestra variable de estado, esta sintaxis se
         ve de la siguiente manera
         <br />
+        <br />
         <span className="font-semibold text-red-400 text-base">{firstWay}</span>
       </p>
 
@@ -50,28 +52,14 @@ export const ExplanationUseState = () => {
         para cada valor almacenado. La sintaxis que usaríamos seria la
         siguiente:
         <br />
+        <br />
         <span className="font-semibold text-red-400 text-base">
           {secondWay}.
         </span>
       </p>
 
-      <p className="text-lg text-left pl-4 mb-4   ">
-        <br />
-        <span className="font-semibold text-red-400 text-base">
-          {secondWay}.
-        </span>
-      </p>
-      <p className="text-lg text-left pl-4 mb-4   ">
-        En nuestro estado inicial podemos pasar diferentes tipos de datos entre
-        esos un objeto o arreglo que nos va a permitir en nuestro estado poder
-        hacer desestructuración permitiendo así llamar a variables individuales
-        para cada valor almacenado. La sintaxis que usaríamos seria la
-        siguiente:
-        <br />
-        <span className="font-semibold text-red-400 text-base">
-          {secondWay}.
-        </span>
-      </p>
+      
+      
       <p className="text-lg text-left pl-4 mb-4   ">
         Otra forma, es desestructurar la variable de estado, lo que nos permite
         seleccionar solo las variables que vamos a utilizar en el componente.

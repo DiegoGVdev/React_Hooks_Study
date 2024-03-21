@@ -24,7 +24,7 @@ export const CounterApp = () => {
       <h1 className="p-8 mb-4">Counter2:  {contador2}</h1>
       <button
         onClick={handleClick}
-        className="bg-blue-600 lg:w-96 align-middle justify-center text-white rounded-xl p-4 mb-4 sm: w-[250px]   "
+        className="bg-blue-600 lg:w-96 align-middle justify-center text-white rounded-xl p-4 mb-4 sm: w-[250px] cursor-pointer   "
       >
         +1
       </button>
