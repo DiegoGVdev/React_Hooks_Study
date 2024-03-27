@@ -80,7 +80,7 @@ export const ExplanationUseState = () => {
           <br />
           &emsp;const &#123; counter1, counter2 &#125; = state
         <br/>
-        &emsp;const handleClick = () => &#123;
+        &emsp;const handleClick = () =&gt; &#123;
 
         <br/>
         &emsp; &emsp; setState(&#123;<br/>&emsp; &emsp; &emsp;...state, <br/>&emsp;&emsp;&emsp; counter1: counter1 + 1<br/>&emsp; &emsp; &#125;)
